@@ -1,0 +1,855 @@
+ @import "reset.css"
+ @import "owl.carousel.css"
+ @import "owl.theme.css"
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,300)
+ 
+ nav-color= #333
+ border= #ccc
+ roboto = 'Roboto', sans-serif
+ * 
+ 	-webkit-box-sizing 	border-box 
+ 	-moz-box-sizing 	border-box 
+ 	box-sizing 	border-box 
+ 	-webkit-transition 0.5s ease 
+ 	-moz-transition 0.5s ease 
+ 	-ms-transition 0.5s ease 
+ 	-o-transition 0.5s ease 
+ 	transition 0.5s ease 
+ iframe
+ 	width 100%	
+ 
+
+/* jquery add remove  class */
+.mobile-menu 
+	ul 
+		li 
+			display block
+	.fa-bars
+	       transform rotate(90deg)
+
+.show-form  form 
+		display block !important	       
+		     	
+
+.stickynav 
+		nav 
+			position fixed
+			top -20px
+			left 0
+			width 100%	
+			z-index 1000
+			transition 0.5s ease  
+		
+		.main-news-section 
+			padding 26px 0 30px 0
+				
+/* jquery add remove  class */	
+
+ .container 
+ 	max-width 1170px
+ 	margin auto
+ 	padding 0 20px
+ img 
+ 	width 100%
+ 	
+ .clearfix:after 
+ 	clear both	
+ 	content ''
+ 	display block
+
+header 
+	.logo-wrap 
+		margin 8px 0 10px 0
+		display block
+		width 100% 
+
+nav 
+	transition 0.5s ease   
+	background 	nav-color 
+	position relative
+	margin-top 	20px 
+	.container 
+		padding 0		
+	ul 
+		background #1a1a1a
+		 	
+		li 
+			display none	
+			border-bottom 1px solid #333
+			a 
+				color #fff
+				padding 15px 0 15px 15px !important 
+				text-decoration none
+				font-size 15px 
+				border-top 1px solid #000 
+				display block	
+				&:hover 
+					background rgba(0, 0, 0, 0.34)
+			&:first-child a 
+					border-top 	1px solid transparent 			
+	.searching
+		float right	
+		div 
+			float left
+			padding-bottom 19px 
+			background #494949
+			a 
+				color #fff
+				display block
+				padding 0 20px
+				margin-top 15px 
+				text-decoration none
+				font-weight bold 
+				position relative
+	.mobile-tauko 
+		background 	#1a1a1a
+		padding 11px 
+		display inline-block
+		color #fff
+		font-size 13px
+		text-decoration none 
+	form
+		position absolute
+		top 100%
+		display none
+		right 0
+		background #494949
+		padding 20px
+		width 100%
+		z-index 1000
+		text-align center
+		div
+			position relative
+		button    
+			bottom 0px
+			position absolute   
+			color #fff
+			background-color #337ab7
+			border none
+			height 30px
+			width 74px
+			font-weight bold 
+			margin-left 20px
+			right 0
+			float right
+		input
+			width 100%
+			height 30px
+			line-height 30px 
+			padding 0 30px 0 20px
+			display inline-block
+	
+.main-news-section 
+	padding 27px 0
+	.left-col
+		h1 
+			color #37495e 
+			font-weight 600
+			border-bottom 4px solid border 
+			font-size 25px
+			padding-bottom 18px
+			position relative
+			margin-bottom 20px 
+			&:before 
+				content "" 
+				position absolute
+				bottom -2px
+				left 0
+				background #37495e
+				height 2px
+				width 130px
+		.left-col-news 
+			margin-top 10px 
+			div 
+				position relative	
+				a 
+					position absolute	
+					background rgba(0, 0, 0, 0.64)
+					padding 15px
+					color #fff
+					text-decoration none 
+					width 	100%
+					bottom 2px
+					left 0  
+					margin-top -3px
+					line-height 25px
+					font-size 17px
+		ul 
+			display block
+			margin-top 20px	
+			
+			li 
+				margin-top 15px
+				div 
+					a 
+						background rgba(0, 0, 0, 0.64)
+						padding 15px
+						color #fff
+						width 100%
+						text-decoration none 
+						width 	100%
+						bottom 2px
+						left 0  
+						color #fff
+						line-height 22px
+						display block
+						font-size 17px
+	
+	.right-col 
+		display none		
+
+.mukhya-samachar
+	padding 30px 0 0 0
+	h2 
+		color #bc1212 
+		font-weight 600
+		border-bottom 4px solid border 
+		font-size 25px
+		padding-bottom 18px
+		position relative
+		margin-bottom 20px 
+		&:before 
+				content "" 
+				position absolute
+				bottom -2px
+				left 0
+				background #bc1212
+				height 3px
+				width 130px
+	.main-slide-wrap 
+		margin 0 -10px
+		position relative
+		.item
+			padding 0 10px
+			a
+				color #000
+				display block
+				font-weight bold
+				font-size 17px  
+				text-decoration none
+				line-height 25px
+				border 2px solid #ccc
+				span 
+					padding 10px 15px
+					display block
+			&:hover
+				span 
+					color #900	
+	.owl-buttons
+		position absolute
+		top -79px
+		right 7px 
+		.owl-prev 
+			color #000 !important 
+			background #000 !important
+			opacity 1 !important 
+			height 38px
+			width 38px
+			position relative
+			-webkit-border-radius 0 !important 
+			border-radius 0 !important
+			&:before 
+				content ''
+				position absolute
+				top 8px
+				left 15px
+				-webkit-border-radius 5px 
+				border-radius 5px 
+				border-right 10px solid #fff	
+				border-bottom 10px solid transparent
+				border-top 10px solid transparent
+			&:after 
+				content ''
+				position absolute
+				top 8px
+				left 18px
+				-webkit-border-radius 5px 
+				border-radius 5px 
+				border-right 10px solid #000	
+				border-bottom 10px solid transparent
+				border-top 10px solid transparent
+			
+			&:hover 
+				background #900 !important
+				&:after 
+				  border-right 10px solid #900	
+							
+			
+		.owl-next 
+			color #000 !important 
+			background #000 !important
+			opacity 1 !important 
+			height 38px
+			width 38px
+			position relative
+			-webkit-border-radius 0 !important 
+			border-radius 0 !important
+			&:before 
+				content ''
+				position absolute
+				top 8px
+				left 15px
+				-webkit-border-radius 5px 
+				border-radius 5px 
+				border-left 10px solid #fff	
+				border-bottom 10px solid transparent
+				border-top 10px solid transparent
+			&:after 
+				content ''
+				position absolute
+				top 8px
+				left 12px
+				-webkit-border-radius 5px 
+				border-radius 5px 
+				border-left 10px solid #000	
+				border-bottom 10px solid transparent
+				border-top 10px solid transparent
+			
+			&:hover 
+				background #900 !important
+				&:after 
+				  border-left 10px solid #900	
+
+.desh-manoranjan
+	.desh-section
+			article
+				div
+					border 2px solid border
+					border-top none 
+					padding-bottom 10px
+					background rgba(231, 231, 231, 0.28)
+				h3 
+					color #13caff 
+					margin-top 20px
+					font-weight 600
+					border-bottom 4px solid border 
+					font-size 25px
+					padding-bottom 18px
+					position relative
+					margin-bottom 20px 
+					&:before 
+							content "" 
+							position absolute
+							bottom -2px
+							left 0
+							background #13caff
+							height 3px
+							width 130px
+				&:first-child + article h3
+					color #2964a0
+					margin-top 20px
+					&:before 
+						background #2964a0 	
+				
+				a
+					color #000
+					display block
+					text-decoration none 
+					span
+						display block
+						font-size 17px
+						font-weight 600 
+						padding 10px 15px
+						line-height 25px
+				span:hover 
+					color #13caff
+				p 
+					font-size 17px
+					line-height 27px
+					padding-left 15px	
+					color rgba(0, 0, 0, 0.69)
+					padding-right 16px 
+				ins
+					padding-left 15px
+					text-decoration none 
+					font-size 15px 
+					display block 
+					margin-bottom 10px 
+				ul
+					margin-top 19px 
+					li
+						border-bottom 1px solid #ccc
+						padding-top 10px
+						font-size 17px
+						line-height 25px
+						display block
+						font-weight 400
+						a 
+							color #2964a0
+	.right-ad-section 
+		ul 
+			margin-top 20px 
+			li 
+				margin-bottom 10px
+.science-techno-section 
+	padding-bottom 30px
+	h4
+		color #2964a0 
+		margin-top 20px
+		font-weight 600
+		border-bottom 4px solid border 
+		font-size 25px
+		padding-bottom 18px
+		position relative
+		margin-bottom 20px 
+		&:before 
+				content "" 
+				position absolute
+				bottom -2px
+				left 0
+				background #2964a0
+				height 3px
+				width 130px 
+	.left-news-section
+		div 
+			border 2px solid border
+			span 
+				display block	
+				padding 10px 15px
+				a 
+					display block	
+					font-size 17px
+					color #000
+					text-decoration none
+					font-weight bold
+					line-height 26px
+					&:hover 
+							color #2964a0
+				p 
+					font-size 16px
+					margin-top  10px 
+					line-height 26px 
+					color rgba(0, 0, 0, 0.69)	 
+	.right-news-section 
+		margin-top 20px
+		ul 
+			li
+				margin-top 20px  
+				border 2px solid border 
+				background rgba(204,204,204,0.22)
+				&:first-child 
+					margin-top 0
+				div
+					background rgba(204, 204, 204, 0.22)
+					&:first-child
+						+ div
+							padding 10px 10px 10px 20px
+					a
+						display block
+						font-size 17px
+						padding-top 10px 
+						color #000
+						text-decoration none
+						font-weight 600 
+						line-height 26px 
+						&:hover 
+							color #2964a0
+							
+					p
+						font-size 17px
+						line-height 27px
+						padding-top 10px
+						margin-top 5px 
+					    color rgba(0, 0, 0, 0.69)
+.business-section
+	padding-top 10px
+	h5
+		color #fff 
+		background #3b4590
+		margin-top 20px
+		font-weight 600
+		font-size 25px
+		position relative
+		margin-bottom 20px 
+		padding 10px 0 10px 20px
+		&:before 
+			    content ''
+			    bottom: -10px
+			    position absolute
+			    display block
+			    left 0
+			    border-style solid
+			    border-color #3b4590 transparent transparent transparent
+			    z-index 1
+			    border-width 10px 0px 0px 20px
+			&:after 
+			    content ''
+			    bottom: -10px
+			    position absolute
+			    display block
+			    right 0
+			    border-style solid
+			    border-color #3b4590 transparent transparent transparent
+			    z-index 1
+			    border-width 10px 20px 0px 0px    					    				
+	.business-news-wrapper
+		.left-business
+			margin-top 20px
+			div
+				border 2px solid #ccc
+				a 
+					display block
+					font-size 17px
+					font-weight bold
+					color #000
+					padding 20px
+					line-height 29px
+					text-decoration none 
+.video-section 
+	padding-top 30px
+	h6
+		color #fff 
+		background #5b8ff7
+		font-weight 600
+		font-size 22px
+		position relative
+		height 50px
+		line-height 50px 
+		span
+			text-align center
+			color #fff 
+			margin-right 24px
+			float left
+			height 50px
+			width 	50px
+			background rgba(0, 0, 0, 0.35)
+		a 
+			float right
+			color #fff
+			background rgba(0, 0, 0, 0.35)
+			text-decoration none 
+			padding 0 20px
+	.video-wrapper 
+		background #EDEDED 
+		padding 20px
+		border-top none 
+		border 2px solid #ccc
+		div
+			margin-top 10px 
+			article
+				display block
+				padding 10px 15px 
+				background #fff
+				margin-top -2px
+				border 2px solid border
+				padding-left 23px 
+				border-top none 
+				a 
+				  display block
+				  font-size 17px
+				  color #000
+				  margin-top 10px 
+				  font-weight bold
+				  line-height 26px 
+				  text-decoration none
+				p
+				  	font-size 15px
+				  	line-height 27px
+				  	padding 16px 0 14px 0 
+				ins
+					font-size 12px
+					display block 
+					margin-top 12px 
+					text-decoration none   	  
+			ul 
+				li 
+					margin-top 10px			
+					    
+@media screen and (min-width: 500px)
+	nav form div
+				width 50%
+				margin auto
+		nav	ul 
+				li 
+					a
+						padding 0 12px
+						font-size 14px 
+	.main-news-section 
+		.left-col 
+			float left
+			width 100%
+		.news-container
+				margin 0 -10px  
+				.left-col-news 
+					float left
+					width 50%
+					padding 0 10px
+					
+				ul 
+					margin-top 6px
+					li 
+						float left
+						width 33.33%
+						padding 0 10px
+						div 
+							position relative
+							a 
+							position absolute
+							bottom 2px
+							left 0	
+		.right-col 
+			float right
+			width 25.25% !important
+			display none
+			margin-top 12px	
+	.mukhya-samachar
+		padding 45px 0 30px 0
+	.desh-manoranjan 
+		.desh-section 
+			margin 0 -10px
+			article
+				float left 
+				width 50%
+				padding 0 10px
+				h3
+					margin-top 0 !important 
+	.right-ad-section 
+		ul 
+			margin 0 -13px
+			li
+				margin-top 5px 
+				float left
+				padding 0 13px
+				width 50%
+	
+		.stickynav
+			.main-news-section 
+				padding 70px 0 30px 0
+		.left-news-section 
+				article 
+					float none 
+					width 100% !important 
+				
+				.desh-section 
+					float none !important
+					width 100% !important 			
+	.right-news-section
+				ul
+					li
+						display table
+						div
+							display table-cell
+							vertical-align top 															  
+	.business-section 
+		.container 
+			.business-news-wrapper
+				margin 0 -10px
+				.left-business
+					float left 
+					width 50% 
+					padding 0 10px
+					margin-top 0
+	.video-wrapper
+		div
+			float left
+			padding 0 12px
+			width 41.025%
+			padding-bottom 10px 
+    	
+			&:first-child 
+				+ div
+					width 58.094%	
+					padding-right 0 
+			ul 
+				margin -10px -10px 0 -10px
+				li 
+					float left
+					width 50%
+					padding 0 10px	
+	
+	.full-news-section 
+		padding 17px 0	
+		h1 
+			margin-bottom 10px 
+			font-size 45px !important
+			font-weight normal !important
+		
+		
+		
+		.inner-ad-section 
+			float right
+			width 30%
+			padding-left 15px  
+			
+			ul 
+				li 
+					margin-top 20px 
+							
+	
+	.inner 
+		.long-advertisement 
+			padding-top 35px !important
+			 		
+						
+@media screen and (min-width 768px)
+		
+		.inner-ad-section 
+			display block !important
+		
+		.news-containers
+			float left
+			width 70%
+			padding-right 15px 	
+		.searching div
+			margin-right 20px 
+		.stickynav 
+				nav 
+					top -25px	
+					
+		header
+		      .logo-wrap 
+			         float left
+			         width 45% 
+			   .online-ad 
+			   		 float right  
+			   		 padding-top 18px 
+			   		 width 	50% 
+	 	nav 
+	 		margin-top 	15px 
+		 		form 
+			 		div
+			 		position relative
+			 		width 50%
+			 		margin auto	
+	 		ul 	
+	 		   li 
+	 		   	float left
+	 		   	display block
+	 		   	border none
+	 		   	a 
+	 		   		border none
+	 		   		font-size 13px
+	 		   		padding 0 14px !important
+	 		   		height 50px
+	 		   		line-height 50px 
+	 		   		display block
+	 		   		margin-top 0
+	 		 
+	 		.mobile-tauko 
+	 			display none   		
+	 		   		
+		.main-news-section 
+			padding 45px 0 30px 0
+			.left-col 
+				float left
+				width 72.30% !important 
+				.left-col-news 
+					margin-top 0 !important 
+					float left
+					width 50%
+				
+			.right-col 
+				float right
+				display block !important
+				width 25.25% !important
+		.desh-manoranjan 
+			.desh-section 
+				float left
+				width 72.64%
+				article 
+					width 60% !important
+					&:first-child + article 
+						width 40% !important
+			.right-ad-section
+				float right
+				width 27.48%
+				margin-top 0px !important
+				
+				ul 
+					margin 0
+					li 
+						width 100%
+						padding 0
+		.science-techno-section 
+			padding-top 45px
+			.left-news-section 
+				float left
+				width 47.86%
+				article 
+					float none 
+					width 100% !important 
+			.right-news-section 
+				float right	
+				width 50.34%
+				margin-top 0 !important	
+				ul 
+					li 
+						div
+							iframe
+								padding 20px	
+@media screen and (min-width 1024px) 
+	nav
+		ul 
+			li 
+				a 
+					font-size 18px !important
+					height 50px
+					line-height 50px 
+					padding 0 18px !important					
+
+footer 
+		background nav-color
+		margin-top 30px 	
+		.container 
+			div 
+				margin-top 2px 
+				padding 20px 0
+				float left
+				font-size 17px
+				font-family roboto
+				font-weight 300 
+				color #fff
+				
+				+
+					div
+						float right
+						
+
+/* inner-page css */
+
+.inner 
+	.long-advertisement 
+		padding-top 20px
+	.full-news-section 
+		h1 
+			padding 20px 0
+			font-size 22px 
+			color rgba(0, 0, 0, 0.58)
+			border-bottom 1px solid #ccc
+			font-weight 600 
+			
+		p 
+			font-size 18px 	
+			line-height 30px
+			margin-top 20px 
+			font-weight 400 
+			color rgba(0, 0, 0, 0.65)
+			strong
+				font-weight bold 
+				font-size 17px 	
+				padding-bottom 10px
+		&:first-child 
+			margin-top 0 		
+		
+		.inner-ad-section 
+			display none
+		
+		.video-wrap 
+			margin-top 20px
+			img
+					margin-top 25px  
+			iframe 
+				height 460px
+			
+			.related-news
+				h2
+					padding-top 30px
+					color rgba(0, 0, 0, 0.53)
+					font-size 25px
+					font-weight bold	
+					
+				
+
+/* inner-page css */						
+
+						
